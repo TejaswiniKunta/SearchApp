@@ -28,6 +28,9 @@
   color: #61dafb;
 }
 
+label{
+  font-weight: bold;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +38,58 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.jumbotron{
+  background-image: url("./pexels-photo-751373.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.suggestions{
+
+  padding-left: 15px;
+  height: 28px;
+  font-weight: bolder;
+
+}
+
+.removeSelection{
+  margin-top: 4px;
+  float: right;
+  cursor: pointer;
+}
+.logo-css{
+  height: 23px;
+  width: 50px;
+}
+.cancel-button{
+  font-weight: bold;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 130px;
+  border-bottom-left-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.title-css{
+  height: 50px;
+}
+button:focus {
+  outline:0;
+}
+
+input:focus{
+  outline: none;
+}
+.textbox-css{
+  height: 45px;
+  width:300px;
+  border-radius:20px 20px 20px 20px ;
+}
+
+.list-css{
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
